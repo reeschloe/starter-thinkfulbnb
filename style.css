@@ -121,7 +121,6 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
-  max-width: 100px;
 }
 
 /* -------  Footer ------- */
@@ -154,6 +153,7 @@ footer p {
     flex: 1;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: nowrap;
   }
 
   form div {
@@ -162,6 +162,10 @@ footer p {
     justify-content: center;
     width:fit-content;
     margin: 0;
+  }
+
+  form button {
+    max-width: 100px;
   }
 
   section .container {
