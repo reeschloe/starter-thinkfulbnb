@@ -150,22 +150,21 @@ footer p {
 
   form {
     display: flex;
-    flex: 1;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: nowrap;
   }
 
   form div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     width:fit-content;
     margin: 0;
   }
 
   form button {
-    max-width: 100px;
+    flex: 1;
   }
 
   section .container {
@@ -177,6 +176,11 @@ footer p {
 
   #ideas .container .item{
     min-width: 40%;
+  }
+
+  .group {
+    flex-direction: row;
+    align-items: center;
   }
 
 }
