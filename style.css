@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -163,4 +163,16 @@ footer p {
     width:fit-content;
     margin: 0;
   }
+
+  section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #ideas .container .item{
+    min-width: 40%;
+  }
+
 }
