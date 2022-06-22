@@ -123,6 +123,13 @@ form button {
   width: 100%;
 }
 
+.form-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 /* -------  Footer ------- */
 
 footer {
@@ -151,8 +158,8 @@ footer p {
   form {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
   }
 
   form div {
@@ -165,6 +172,7 @@ footer p {
 
   form button {
     flex: 1;
+    max-width: 100px;
   }
 
   section .container {
@@ -181,6 +189,15 @@ footer p {
   .group {
     flex-direction: row;
     align-items: center;
+  }
+
+  .form-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 5;
   }
 
 }
